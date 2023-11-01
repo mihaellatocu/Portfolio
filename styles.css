@@ -312,7 +312,7 @@ nav {
   background: linear-gradient(rgba(250, 201, 76, 0), rgba(0, 0, 0, 0.7)); /* Adjust gradient colors and opacity as needed */
   opacity: 1;
   transition: opacity 0.3s;
-  margin-left: 25px;
+  margin-left: 13px;
   border-radius: var(--radius);
 }
 
@@ -377,7 +377,7 @@ form {
   .overlay {
     width: 175px;
     height: 175px;
-    margin-left: 112px;
+    margin-left: 100px;
     border-radius: var(--radius);
   }
   .title p {
