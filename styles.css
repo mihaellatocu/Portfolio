@@ -306,7 +306,7 @@ nav {
 .overlay {
   position: absolute;
   top: 0;
-  left: 0.875rem;
+  left: 1.5rem;
   width: 350px;
   height: 350px;
   background: linear-gradient(rgba(250, 201, 76, 0), rgba(0, 0, 0, 0.7)); /* Adjust gradient colors and opacity as needed */
@@ -408,7 +408,7 @@ ion-icon:hover {
 }
 footer {
   background: var(--clr-grey-1);
-  padding: 3rem 1rem;
+  padding: 1rem 1rem;
   line-height: 1;
   font-size: 0.75rem;
 }
@@ -431,8 +431,10 @@ footer {
 footer a img{
   height: 30px;
   width: auto;
-  color: white;
+  color: var(--clr-grey-10);
   cursor: pointer;
   margin-left: 90vw;
   margin-top: -10px;
+  filter: invert(1);
+  
 }
