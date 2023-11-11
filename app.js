@@ -35,7 +35,7 @@ const menu = [
     id: 5,
     title: "DataBase on Replit",
     img: "./databasePyton.png",
-    desc: "Database on Replit, using Pyton, https://replit.com/@mihaellatocu/SongTable, https://replit.com/@mihaellatocu/FilmTable", 
+    desc: "Database on Replit, using Python, https://replit.com/@mihaellatocu/SongTable, https://replit.com/@mihaellatocu/FilmTable", 
     site: "https://mihaellatocu.github.io/Database_with_Pyton/",
     apps: "Python | MySQL/SQLite | CSS | HTML "
   }

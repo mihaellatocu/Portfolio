@@ -242,7 +242,7 @@ nav {
 }
 .about {
   min-height: 100vh;
-  background: linear-gradient(rgb(190, 218, 222), rgba(0,0,0,0.7)), url(./London.jpg) 
+  background: linear-gradient(rgb(190, 218, 222), rgba(0,0,0,0.5)), url(./London.jpg) 
   center/cover no-repeat;
 }
 #about, #projects, #contact {
@@ -280,7 +280,6 @@ nav {
   display: grid;
   gap: 1rem 3rem;
   max-width: 25rem;
-  
 }
 
 .link-project {
@@ -306,16 +305,16 @@ nav {
 .overlay {
   position: absolute;
   top: 0;
-  left: 1.5rem;
-  width: 350px;
+  left: 1rem;
+  width: 345px;
   height: 350px;
   background: linear-gradient(rgba(250, 201, 76, 0), rgba(0, 0, 0, 0.7)); /* Adjust gradient colors and opacity as needed */
   opacity: 1;
   transition: opacity 0.3s;
-  /* margin-left: 13px; */
   border-radius: var(--radius);
-  border: 0.25rem transparent;
+  border: 1rem transparent;
   overflow: hidden;
+  object-fit: cover;
 }
 
 .link-project:hover .overlay {
@@ -332,6 +331,9 @@ p {
   margin: auto;
   padding-top: 1rem;
   text-align: center;
+}
+span {
+  font-weight: 900;
 }
 form {
   text-align: center;
@@ -352,7 +354,6 @@ form {
   border-radius: var(--radius) ;
   font-size: 1.2rem;
   padding: 5px;
-
 }
 @media screen and (min-width: 1100px) {
   .section-center {
@@ -389,17 +390,17 @@ form {
     font-size: 0.875rem;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 410px) {
   .name , .email, #message{
     width: 250px;
     padding: 5px;
     margin: 10px auto;
   }
-  .overlay {
-    margin-left: 3.2rem;
-  }
   p {
     font-size: 0.65rem;
+  }
+  .overlay {
+    opacity: 0;
   }
 }
 ion-icon:hover {
@@ -436,5 +437,4 @@ footer a img{
   margin-left: 90vw;
   margin-top: -10px;
   filter: invert(1);
-  
 }
